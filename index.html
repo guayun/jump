@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<title>呱呱主页 - Powered by Gua</title>
+		<link href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-y/bootstrap/5.0.0-beta1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/layui/2.6.8/css/layui.css" rel="stylesheet">
+		<link href="./static/css/fonts.css" rel="stylesheet">
+		<link href="./static/css/main.min.css" rel="stylesheet">
+		<link href="https://gitcode.net/guaee/gua/raw/master/icon/index.png" rel="icon">
+	</head>
+	<body>
+		<div class="loader">
+			<div class="spinner-grow text-info" role="status"></div>
+		</div>
+		<div style="margin: 30px;" class="text-center">
+			<div class="row">
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title" style="font-weight:bolder;">呱呱主页</h5>
+							<p class="card-text">Gua's Homepage</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<p class="card-text">
+								<img src="https://gitcode.net/guaee/gua/raw/master/head.png" style="border-radius: 100%; height: 150px;">
+							<h2>呱呱</h2>
+							<p id="hitokoto">Today is a nice day.</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">导航</h5>
+							<div id="Page1">
+								<div class="d-grid gap-2">
+									<a class="btn btn-success" href="javascript:GoIndex();">呱呱主页</a>
+								</div>
+							</div><br>
+							<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+								<a id="PageUp" class="btn btn-primary">&lt;</a>
+								<div class="btn-group dropup">
+									<button type="button" class="btn btn-primary" id="PageSize">第1页</button>
+								</div>
+								<a id="PageDown" class="btn btn-primary">&gt;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="authent-reg">&copy;呱呱<br>本站已安全运行<a id="momk"></a><br>Designed by Gua | Powered by Gua</div>
+		<br><br>
+		<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/layui/2.6.8/layui.js"></script>
+		<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+		<script src="./static/js/main.min.js"></script>
+	</body>
+</html>
